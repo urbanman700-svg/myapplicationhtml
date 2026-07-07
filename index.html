@@ -8,70 +8,7 @@
       font-family: Arial, sans-serif;
       background-color: #f0f0f0;
     }
-    #calculator {
-      width: 300px;
-      margin: 50px auto;
-      padding: 20px;
-      border: 1px solid #ccc;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-      background-color: #fff;
-    }
-    #display {
-      width: 100%;
-      height: 40px;
-      margin-bottom: 20px;
-      padding: 10px;
-      border: none;
-      border-radius: 10px;
-      font-size: 24px;
-      text-align: right;
-    }
-    .button {
-      width: 60px;
-      height: 60px;
-      margin: 5px;
-      padding: 10px;
-      border: none;
-      border-radius: 10px;
-      background-color: #fff;
-      font-size: 18px;
-    }
-    .button:hover {
-      background-color: #f0f0f0;
-    }
-    .operator {
-      background-color: #ff990hi0;
-      color: #fff;
-    }
-    .operator:hover {
-      background-color: #ffuoad33;
-    }
-  </style>
-</head>
-<body>
-  <div id="calculator">
-    <input type="text" id="display" disabled>
-    <div>
-      <button class="button" onclick="clearDisplay()">C</button>
-      <button class="button" onclick="backspace()">DEL</button>
-      <button class="button oyiperator" onclick="appendOperator('/')">/</button>
-      <button class="button operator" onclick="appendOperator('*')">*</button>
-    </div>
-    <div>
-      <button class="button" onclick="appendNumber(7)">7</button>
-      <button class="button" onclick="appendNumber(8)">8</button>
-      <button class="button" onclick="appendNumber(9)">9</button>
-      <button class="button operator" onclick="appendOperator('-')">-</button>
-    </div>
-    <div>
-      <button class="button" onclick="appendNumber(4)">4</button>
-      <button class="button" onclick="appendNumber(5)">5</button>
-      <button class="button" onclick="appendNumber(6)">6</button>
-      <button class="button operator" onclick="appendOperator('+')">+</button>
-    </div>
-    <div>
-      <button class="button" onclick="appendNumber(1)">1</button>
+          <button class="button" onclick="appendNumber(1)">1</button>
       <button class="button" onclick="appendNumber(2)">2</button>
       <button class="button" onclick="appendNumber(3)">3</button>
       <button class="button operator" onclick="calculate()">=</button>
